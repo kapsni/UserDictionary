@@ -1,0 +1,33 @@
+/* src/components/CountrySelector.css */
+.country-selector-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .country-selector-label {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .country-selector-dropdown {
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .fetch-button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #a8a500;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .fetch-button:hover {
+    background-color: #3d3d08;
+  }
+  

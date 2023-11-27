@@ -1,0 +1,43 @@
+/* src/components/UserDetail.css */
+.user-detail-container {
+  margin-top: 20px;
+}
+
+.user-detail-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-detail-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-detail-subsection {
+  margin-top: 20px;
+}
+
+.user-detail-post-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.user-detail-post-card {
+  width: 30%;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.user-detail-post-title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.user-detail-post-content {
+  font-size: 16px;
+}
